@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C701F2E9135F087100468818 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C701F2E8135F087100468818 /* Cocoa.framework */; };
+		C701F2EB135F087100468818 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C701F2EA135F087100468818 /* MacRuby.framework */; };
+		C701F2F2135F087100468818 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C701F2F0135F087100468818 /* InfoPlist.strings */; };
+		C701F2F5135F087100468818 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C701F2F4135F087100468818 /* main.m */; };
+		C701F2F9135F087100468818 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C701F2F7135F087100468818 /* MainMenu.xib */; };
+		C701F2FC135F087100468818 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = C701F2FB135F087100468818 /* rb_main.rb */; };
+		C701F2FE135F087100468818 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = C701F2FD135F087100468818 /* AppDelegate.rb */; };
+		C701F301135F087100468818 /* Hoops.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C701F2FF135F087100468818 /* Hoops.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C701F2E4135F087100468818 /* Hoops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hoops.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C701F2E8135F087100468818 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C701F2EA135F087100468818 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+		C701F2EF135F087100468818 /* Hoops-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hoops-Info.plist"; sourceTree = "<group>"; };
+		C701F2F1135F087100468818 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C701F2F3135F087100468818 /* Hoops-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hoops-Prefix.pch"; sourceTree = "<group>"; };
+		C701F2F4135F087100468818 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C701F2F8135F087100468818 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C701F2FB135F087100468818 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		C701F2FD135F087100468818 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		C701F300135F087100468818 /* Hoops.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hoops.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C701F2E1135F087100468818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C701F2E9135F087100468818 /* Cocoa.framework in Frameworks */,
+				C701F2EB135F087100468818 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C701F2D9135F087100468818 = {
+			isa = PBXGroup;
+			children = (
+				C701F2ED135F087100468818 /* Hoops */,
+				C701F2E7135F087100468818 /* Frameworks */,
+				C701F2E5135F087100468818 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C701F2E5135F087100468818 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C701F2E4135F087100468818 /* Hoops.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C701F2E7135F087100468818 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C701F2E8135F087100468818 /* Cocoa.framework */,
+				C701F2EA135F087100468818 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C701F2ED135F087100468818 /* Hoops */ = {
+			isa = PBXGroup;
+			children = (
+				C701F2FD135F087100468818 /* AppDelegate.rb */,
+				C701F2FF135F087100468818 /* Hoops.xcdatamodeld */,
+				C701F2F6135F087100468818 /* Resources */,
+				C701F2FA135F087100468818 /* Other Sources */,
+				C701F2EE135F087100468818 /* Supporting Files */,
+			);
+			path = Hoops;
+			sourceTree = "<group>";
+		};
+		C701F2EE135F087100468818 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C701F2EF135F087100468818 /* Hoops-Info.plist */,
+				C701F2F0135F087100468818 /* InfoPlist.strings */,
+				C701F2F3135F087100468818 /* Hoops-Prefix.pch */,
+				C701F2F4135F087100468818 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C701F2F6135F087100468818 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C701F2F7135F087100468818 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C701F2FA135F087100468818 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C701F2FB135F087100468818 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		C701F2EC135F087100468818 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = C701F307135F087100468818 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		C701F2E3135F087100468818 /* Hoops */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C701F304135F087100468818 /* Build configuration list for PBXNativeTarget "Hoops" */;
+			buildPhases = (
+				C701F2E0135F087100468818 /* Sources */,
+				C701F2E1135F087100468818 /* Frameworks */,
+				C701F2E2135F087100468818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hoops;
+			productName = Hoops;
+			productReference = C701F2E4135F087100468818 /* Hoops.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C701F2DB135F087100468818 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Grailbox;
+			};
+			buildConfigurationList = C701F2DE135F087100468818 /* Build configuration list for PBXProject "Hoops" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C701F2D9135F087100468818;
+			productRefGroup = C701F2E5135F087100468818 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C701F2E3135F087100468818 /* Hoops */,
+				C701F2EC135F087100468818 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C701F2E2135F087100468818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C701F2F2135F087100468818 /* InfoPlist.strings in Resources */,
+				C701F2F9135F087100468818 /* MainMenu.xib in Resources */,
+				C701F2FC135F087100468818 /* rb_main.rb in Resources */,
+				C701F2FE135F087100468818 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C701F2E0135F087100468818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C701F2F5135F087100468818 /* main.m in Sources */,
+				C701F301135F087100468818 /* Hoops.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C701F2F0135F087100468818 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C701F2F1135F087100468818 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C701F2F7135F087100468818 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C701F2F8135F087100468818 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C701F302135F087100468818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C701F303135F087100468818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C701F305135F087100468818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hoops/Hoops-Prefix.pch";
+				INFOPLIST_FILE = "Hoops/Hoops-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C701F306135F087100468818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hoops/Hoops-Prefix.pch";
+				INFOPLIST_FILE = "Hoops/Hoops-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C701F308135F087100468818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C701F309135F087100468818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C701F2DE135F087100468818 /* Build configuration list for PBXProject "Hoops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C701F302135F087100468818 /* Debug */,
+				C701F303135F087100468818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C701F304135F087100468818 /* Build configuration list for PBXNativeTarget "Hoops" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C701F305135F087100468818 /* Debug */,
+				C701F306135F087100468818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C701F307135F087100468818 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C701F308135F087100468818 /* Debug */,
+				C701F309135F087100468818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C701F2FF135F087100468818 /* Hoops.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C701F300135F087100468818 /* Hoops.xcdatamodel */,
+			);
+			currentVersion = C701F300135F087100468818 /* Hoops.xcdatamodel */;
+			path = Hoops.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C701F2DB135F087100468818 /* Project object */;
+}
